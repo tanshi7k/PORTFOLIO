@@ -1,0 +1,97 @@
+body {
+	background-color: #f9f9bd; 
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.header {
+	background-color: #f9f9bd; 
+	padding: 20px;
+	text-align: right;
+}
+
+.header button {
+	background-color: #4CAF50; 
+	color: #FFFFFF;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.header button:hover {
+	background-color: #3e8e41;
+}
+
+.name {
+	font-size: 40px;
+	font-weight: bold;
+	color: #000000; 
+	margin-bottom: 10px;
+}
+
+.photo {
+	width: 350px;
+	height: 450px;
+	border-radius: 10%;
+	margin: 40px;
+}
+
+.description {
+	font-size: 18px;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+section {
+	padding: 20px;
+}
+
+h2 {
+	color: #084f9b; 
+	margin-bottom: 10px;
+    font-size: 30px;
+}
+
+p {
+	color: #000000; 
+	margin-bottom: 20px;
+}
+
+.project-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+.project {
+	background-color: #FFFFFF;
+	padding: 20px;
+	margin: 20px;
+	width: calc(33.33% - 40px);
+}
+
+.project h3 {
+	color: #8e1818;
+	margin-bottom: 10px;
+}
+
+.project img {
+	width: 100%;
+	height: 250px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.project p {
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+.resume {
+	margin-bottom: 20px;
+}
+
+.resume a {
+	color: #4CAF50;
